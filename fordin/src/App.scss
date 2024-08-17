@@ -1,0 +1,25 @@
+
+@font-face {
+    font-family: 'lf';
+    src: url('/ofont.ru_Lifehack.ttf');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #090909;
+    min-height: 100vh;
+}
+
+.blur-video {
+    filter: blur(5px); /* регулируй степень размытия по своему желанию */
+}
+
+.cuss {
+    scrollbar-width: 4px !important;
+}
